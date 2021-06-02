@@ -106,7 +106,7 @@ Host *
 ### If on macOS, and using the built in OpenSSH client, then use Apple Keychain to store SSH key passwords. This doesn't work with our upgraded OpenSSH client that allows us to use hardware backed SSH keys though. Left here as it doesn't hurt anything
 
   Match exec "uname -s | grep Darwin"
-  UseKeychain yes
+    UseKeychain yes
 
 ### Only use strong ciphers like chacha20 & aes256-gcm
 
