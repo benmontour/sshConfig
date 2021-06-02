@@ -5,3 +5,4 @@ I struggled to find a relevant or up to date single source of information for ha
 ## Install Instructions
 
 * Copy the raw contents of sshConfig to your `~/.ssh/config file`
+* Update any key names or locations as appropriate
